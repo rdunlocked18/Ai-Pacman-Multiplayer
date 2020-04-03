@@ -1,0 +1,4 @@
+python capture.py
+python capture.py --help
+python capture.py -r BaselineAgents -b BaselineAgents --blueOpts first=keys
+python capture.py --blueOpts first=keys  
