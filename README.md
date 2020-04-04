@@ -18,6 +18,8 @@ python capture.py -r BaselineAgents -b BaselineAgents
 python capture.py --blueOpts first=keys  
 ```
 
+[Execution Video](https://img.youtube.com/vi/5bCzxQ8ycTc/0.jpg)](https://youtu.be/5bCzxQ8ycTc)
+
 1. Commands Menu
      - Command 1 will run Pacman with Default Layout and Automatic Gameplay
      - Command 2 will run Pacman with tinyCapture Layout and Automatic Gameplay
@@ -25,3 +27,7 @@ python capture.py --blueOpts first=keys
      - Command 4 will run Pacman with Default Layout and blue first ghost as Keyboard Gameplay
      - -l can specify layouts in the layouts folder as in 2nd commands 
      - all commands can be joined
+     - to run the Command for UI use python supportUi.py (Make sure you have PYQT5)
+     
+     
+    
