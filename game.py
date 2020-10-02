@@ -2,10 +2,6 @@
 from util import *
 import time, os
 import traceback
-  
-#######################
-# Parts worth reading  Copied from the Assignment Pdf#
-#######################
 
 class Agent:
   
@@ -579,7 +575,6 @@ class Game:
       else:
         observation = self.state.deepCopy()
 
-      # Solicit an action
       action = None
       self.mute(agentIndex)
       if self.catchExceptions:
@@ -647,7 +642,7 @@ class Game:
       self.rules.process(self.state, self)
       # Track progress
       if agentIndex == numAgents + 1: self.numMoves += 1
-      # Next agent
+        
       agentIndex = ( agentIndex + 1 ) % numAgents
 
       if _BOINC_ENABLED:
